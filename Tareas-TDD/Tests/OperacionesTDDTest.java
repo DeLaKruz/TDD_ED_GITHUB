@@ -29,4 +29,11 @@ class OperacionesTDDTest {
         int calc = n.sum("1,1,2");
         assertEquals(4,calc);
     }
+
+    @Test
+    void TestSuma_1_2__Devuelve4(){
+        OperacionesTDD n = new OperacionesTDD();
+        int calc = n.sum("1,2,");
+        assertEquals(-1,calc);
+    }
 }
