@@ -43,4 +43,11 @@ class OperacionesTDDTest {
         int calc = n.sum("1,2,-2");
         assertEquals(-1,calc);
     }
+
+    @Test
+    void TestSumar5_y_1002_SiDevuelve5_IgnoraNumero(){
+        OperacionesTDD n = new OperacionesTDD();
+        int calc = n.sum("5,1002");
+        assertEquals(5,calc);
+    }
 }
