@@ -36,4 +36,21 @@ public class Tests {
         String numACalc = numCalc.pedirNumero(6);
         assertEquals("Fizz",numACalc);
     }
+
+    @Test
+    void Test7_8_9(){
+        FizzBuzz numCalc = new FizzBuzz();
+        String numACalc = numCalc.pedirNumero(7);
+        String numACalc2 = numCalc.pedirNumero(8);
+        String numACalc3 = numCalc.pedirNumero(9);
+        assertEquals("7",numACalc);
+        assertEquals("8",numACalc2);
+        assertEquals("Fizz",numACalc3);
+    }
+    @Test
+    void Test18(){
+        FizzBuzz numCalc = new FizzBuzz();
+        String numACalc = numCalc.pedirNumero(10);
+        assertEquals("Buzz",numACalc);
+    }
 }
