@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TDD_ED_GIT.iml" filepath="$PROJECT_DIR$/TDD_ED_GIT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tareas-TDD/Tareas-TDD.iml" filepath="$PROJECT_DIR$/Tareas-TDD/Tareas-TDD.iml" />
     </modules>
   </component>
 </project>
