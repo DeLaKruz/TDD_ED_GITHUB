@@ -14,4 +14,11 @@ public class Tests {
         String numACalc = numCalc.pedirNumero(2);
         assertEquals("2",numACalc);
     }
+
+    @Test
+    void Testear3(){
+        FizzBuzz numCalc = new FizzBuzz();
+        String numACalc = numCalc.pedirNumero(3);
+        assertEquals("Fizz",numACalc);
+    }
 }
