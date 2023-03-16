@@ -31,9 +31,16 @@ class OperacionesTDDTest {
     }
 
     @Test
-    void TestSuma_1_2__Devuelve4(){
+    void TestSuma_1_2__Devuelvem1(){
         OperacionesTDD n = new OperacionesTDD();
         int calc = n.sum("1,2,");
+        assertEquals(-1,calc);
+    }
+
+    @Test
+    void TestSuma_1_2Menos2_Devuelve1(){
+        OperacionesTDD n = new OperacionesTDD();
+        int calc = n.sum("1,2,-2");
         assertEquals(-1,calc);
     }
 }
